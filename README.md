@@ -1,6 +1,15 @@
-#Spandex - A Thin Flexible Wrapper For Your Project
+#Spandex - A Static Site Generator
 
-Spandex is a Static Site Generator built on Node JS & Grunt
+Spandex is built on Node JS & Grunt 
+
+Core Functionality
+- [x] Concatentate and minify JS and CSS
+- [x] Minify images
+- [x] Revv JS and CSS
+- [x] Server-side Templating w/ EJS
+- [x] Layout Management with EJS Includes
+- [x] Dev Server utilizing Node Connect
+- []  Client-side templating with Handlebars
 
 ##Installation
 
