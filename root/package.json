@@ -1,9 +1,9 @@
 {
-  "name": "{%= name %}",
+  "name": "test",
   "description": "Spandex -  A Static Site Generator Built on Node JS & Grunt",
   "version": "0.1.0",
-  "created": "{%= timestamp %}",
-  "guid": "{%= guid %}",
+  "created": "Sun May 19 2013 15:34:21 GMT-0700 (PDT)",
+  "guid": "8ed8da81-d390-4c30-95e0-3838985b5b8e",
   "homepage": "https://github.com/shaekuronen/spandex",
   "author": {
     "name": "Shae Kuronen",

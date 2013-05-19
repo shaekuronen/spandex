@@ -75,7 +75,7 @@ module.exports = function(grunt) {
           src: 'dev/',
           layout_src: 'dev/pages/',
           index_page: 'dev/pages/home/index.html',
-          data: 'production/data/pages.json'
+          data: 'preview/data/pages.json'
         },
         files: {
           'preview/': 'dev/pages/**/index.html'
@@ -125,6 +125,7 @@ module.exports = function(grunt) {
           {expand: true, cwd: 'dev/', src: ['img/**'], dest: 'preview/'}
           ,{expand: true, cwd: 'dev/', src: ['css/**'], dest: 'preview/'}
           ,{expand: true, cwd: 'dev/', src: ['js/**'], dest: 'preview/'}
+          ,{expand: true, cwd: 'dev/', src: ['data/**'], dest: 'preview/'}
           ,{expand: true, cwd: 'dev/', src: ['.ht*'], dest: 'preview/'}
         ]
       }

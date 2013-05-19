@@ -1,9 +1,5 @@
 {
 
-  "config": {
-    "document_root": "/"
-  },
-
   "home": {
     "page_name": "home",
     "page_category": "page",
