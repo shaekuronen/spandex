@@ -9,10 +9,6 @@ var folderMount = function folderMount(connect, point) {
 };
 // end livereload
 
-var projects_data = require('./dev/data/projects.json');
-
-var pages = require('./dev/data/pages.json');
-
 /*global module:false*/
 module.exports = function(grunt) {
 
@@ -79,7 +75,7 @@ module.exports = function(grunt) {
           src: 'dev/',
           layout_src: 'dev/pages/',
           index_page: 'dev/pages/home/index.html',
-          data: 'dev/data/pages.json'
+          data: 'production/data/pages.json'
         },
         files: {
           'preview/': 'dev/pages/**/index.html'

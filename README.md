@@ -1,14 +1,14 @@
-#Spandex - A Static Site Generator
+#Spandex - Static Site Generator
 
 Spandex is built on Node JS & Grunt 
 
-Core Functionality
+Functionality
 - Concatentate and minify JS and CSS
 - Minify images
 - Revv JS and CSS
 - Server-side Templating w/ EJS
 - Layout Management with EJS Includes
-- Dev Server utilizing Node Connect
+- Dev Server w/ Node Connect
 - Client-side templating with Handlebars
 
 ##Installation
