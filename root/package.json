@@ -1,0 +1,61 @@
+{
+  "name": "{%= name %}",
+  "description": "Spandex -  A Static Site Generator Built on Node JS & Grunt",
+  "version": "0.1.0",
+  "created": "{%= timestamp %}",
+  "guid": "{%= guid %}",
+  "homepage": "https://github.com/shaekuronen/spandex",
+  "author": {
+    "name": "Shae Kuronen",
+    "email": "shae.kuronen@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shaekuronen/spandex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shaekuronen/spandex/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shaekuronen/spandex/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "ejs": "~0.8.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-usemin": "~0.1.7",
+    "grunt-contrib-concat": "~0.1.3",
+    "grunt-contrib-cssmin": "~0.4.0",
+    "grunt-contrib-uglify": "~0.1.2",
+    "grunt-exec": "~0.4.0",
+    "grunt-contrib-connect": "~0.2.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-livereload": "~0.1.2",
+    "grunt-regarde": "~0.1.1",
+    "grunt-reload": "~0.2.0",
+    "grunt-rev": "~0.1.0",
+    "grunt-contrib-imagemin": "~0.1.4",
+    "ejs": "~0.8.4",
+    "grunt-ejs-static": "~0.1.7",
+    "grunt-contrib-compress": "~0.5.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "static site generator"
+  ]
+}
