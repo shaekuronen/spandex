@@ -48,7 +48,7 @@
     "grunt-rev": "~0.1.0",
     "grunt-contrib-imagemin": "~0.1.4",
     "ejs": "~0.8.4",
-    "grunt-ejs-static": "~0.1.7",
+    "grunt-ejs-static": "~0.1.6",
     "grunt-contrib-compress": "~0.5.0"
   },
   "peerDependencies": {
