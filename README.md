@@ -3,13 +3,11 @@
 Spandex is built on Node JS & Grunt 
 
 Functionality
-- Concatentate and minify JS and CSS
+- Concatentate, minify, and rev JS and CSS files
 - Minify images
-- Revv JS and CSS
 - Server-side Templating w/ EJS
 - Layout Management with EJS Includes
-- Dev Server w/ Node Connect
-- Client-side templating with Handlebars
+- Local Server w/ Node Connect
 
 ##Installation
 
