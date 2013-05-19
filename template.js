@@ -25,6 +25,16 @@
     options = {};
     prompts = [
       init.prompt( 'name' )
+      init.prompt('description', 'The best Spandex project ever.'),
+      init.prompt('version'),
+      init.prompt('repository'),
+      init.prompt('homepage'),
+      init.prompt('bugs'),
+      init.prompt('licenses'),
+      init.prompt('author_name'),
+      init.prompt('author_email'),
+      init.prompt('author_url'),
+      init.prompt('grunt_version'),
     ];
 
 
