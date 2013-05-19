@@ -7,7 +7,9 @@ Spandex is a Static Site Generator built on Node JS & Grunt
 ###1. Install grunt-init
 [grunt-init](http://gruntjs.com/project-scaffolding) is a standalone utility 
 
-`npm install -g grunt-init`
+```shell
+npm install -g grunt-init
+```
 
 If it tells you you don't have the necessary privileges, be more assertive:
 
@@ -16,8 +18,9 @@ sudo npm install -g grunt-init
 ```
 
 ###2. Install the template
-`git clone git@github.com:GuardianInteractive/grunt-init-template.git ~/.grunt-init/spandex`
-
+```shell
+git clone git@github.com:shaekuronen/spandex.git ~/.grunt-init/spandex/grunt-init-template.git
+```
 
 ##Usage
 Create a project folder, then initialise the project from the `spandex` template:
