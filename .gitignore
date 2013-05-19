@@ -1,0 +1,4 @@
+.DS_Store
+preview/
+production/
+node_modules/

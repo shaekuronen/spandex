@@ -1,4 +1,4 @@
-#Grunt-based project template
+#Spandex - A Thin Flexible Wrapper For Your Project
 
 Spandex is a Static Site Generator built on Node JS & Grunt
 
@@ -19,7 +19,7 @@ sudo npm install -g grunt-init
 
 ###2. Install the template
 ```shell
-git clone git@github.com:shaekuronen/spandex.git ~/.grunt-init/spandex/grunt-init-template.git
+git clone git@github.com:shaekuronen/spandex.git ~/.grunt-init/spandex
 ```
 
 ##Usage
@@ -33,4 +33,4 @@ grunt-init spandex
 
 You will be prompted for a project name, but it will default to the name of the folder you created (`project-name` in the example above), so just hit `Enter` twice.
 
-You will then be prompted to do `npm install` to install grunt (and its plugins and dependencies) locally to the project. Further instructions for setting up with GitHub and using grunt can be found in the project's `README.md` file.
+You will then be prompted to do `npm install` to install grunt (and its plugins and dependencies) locally to the project. Further instructions for using grunt can be found in the project's `README.md` file.
