@@ -1,0 +1,54 @@
+{
+
+  "home": {
+    "page_name": "home",
+    "page_category": "page",
+    "title": "Spandex | Home",
+    "description": "Static Site Generator built on Node JS & Grunt",
+    "keywords":     "gruntplugin, ejs, static html, includes, static site generator, templates, templating engine, template, embedded js, html includes",
+    "facebook": {
+      "og_title": "Spandex",
+      "og_type": "website",
+      "og_url": "https://github.com/shaekuronen/spandex",
+      "og_image": "",
+      "og_site_name": "Spandex",
+      "og_app_id": "",
+      "og_description": "Static Site Generator built on Node JS & Grunt"
+    }
+  },
+
+  "contact": {
+    "page_name": "contact",
+    "page_category": "page",
+    "title": "Spandex | Contact",
+    "description": "Static Site Generator built on Node JS & Grunt",
+    "keywords":     "gruntplugin, ejs, static html, includes, static site generator, templates, templating engine, template, embedded js, html includes",
+    "facebook": {
+      "og_title": "Spandex",
+      "og_type": "website",
+      "og_url": "https://github.com/shaekuronen/spandex",
+      "og_image": "",
+      "og_site_name": "Spandex",
+      "og_app_id": "",
+      "og_description": "Static Site Generator built on Node JS & Grunt"
+    }
+  },
+
+  "about": {
+    "page_name": "about",
+    "page_category": "page",
+    "title": "Spandex | About",
+    "description": "Static Site Generator built on Node JS & Grunt",
+    "keywords":     "gruntplugin, ejs, static html, includes, static site generator, templates, templating engine, template, embedded js, html includes",
+    "facebook": {
+      "og_title": "Spandex",
+      "og_type": "website",
+      "og_url": "https://github.com/shaekuronen/spandex",
+      "og_image": "",
+      "og_site_name": "Spandex",
+      "og_app_id": "",
+      "og_description": "Static Site Generator built on Node JS & Grunt"
+    }
+  }
+
+}
