@@ -24,7 +24,7 @@
 
     options = {};
     prompts = [
-      init.prompt( 'name' )
+      init.prompt( 'name' ),
       init.prompt('description', 'The best Spandex project ever.'),
       init.prompt('version'),
       init.prompt('repository'),
