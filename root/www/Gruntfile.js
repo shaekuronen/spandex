@@ -256,7 +256,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-regarde');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-ejs-static');
-  grunt.loadNpmTasks('grunt-contrib-compress');
 
   // DEVELOPMENT
   // preview the site during development

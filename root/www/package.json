@@ -1,21 +1,21 @@
 {
-  "name": "{%= name %}",
-  "description": "{%= description %}",
-  "version": "{%= version %}",
-  "created": "{%= timestamp %}",
-  "guid": "{%= guid %}",
-  "homepage": "{%= homepage %}",
+  "name": "test4",
+  "description": "The best Spandex project ever.",
+  "version": "0.1.0",
+  "created": "Tue May 28 2013 15:32:28 GMT-0700 (PDT)",
+  "guid": "eb5c6d81-fc80-4f1a-a4df-7d5e0c621152",
+  "homepage": "https://github.com/shae/test4",
   "author": {
-    "name": "{%= author_name %}",
-    "email": "{%= author_email %}",
-    "url": "{%= author_url %}"
+    "name": "Shae Kuronen",
+    "email": "shae.kuronen@gmail.com",
+    "url": ""
   },
   "repository": {
     "type": "git",
-    "url": "{%= repository %}"
+    "url": "git://github.com/shae/test4.git"
   },
   "bugs": {
-    "url": "{%= bugs %}"
+    "url": "https://github.com/shae/test4/issues"
   },
   "licenses": [
     {
@@ -43,7 +43,6 @@
     "grunt-rev": "~0.1.0",
     "grunt-contrib-imagemin": "~0.1.4",
     "ejs": "~0.8.4",
-    "grunt-ejs-static": "~0.1.7",
-    "grunt-contrib-compress": "~0.5.1"
+    "grunt-ejs-static": "~0.1.7"
   }
 }
