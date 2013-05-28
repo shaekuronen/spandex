@@ -44,6 +44,6 @@
     "grunt-contrib-imagemin": "~0.1.4",
     "ejs": "~0.8.4",
     "grunt-ejs-static": "~0.1.7",
-    "grunt-contrib-compress": "~0.5.0"
+    "grunt-contrib-compress": "~0.5.1"
   }
 }
