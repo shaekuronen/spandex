@@ -1,26 +1,25 @@
 {
-  "name": "test4",
-  "description": "The best Spandex project ever.",
-  "version": "0.1.0",
-  "created": "Tue May 28 2013 15:32:28 GMT-0700 (PDT)",
-  "guid": "eb5c6d81-fc80-4f1a-a4df-7d5e0c621152",
-  "homepage": "https://github.com/shae/test4",
+  "name": "{%= name %}",
+  "description": "{%= description %}",
+  "version": "{%= version %}",
+  "created": "{%= timestamp %}",
+  "guid": "{%= guid %}",
+  "homepage": "{%= homepage %}",
   "author": {
-    "name": "Shae Kuronen",
-    "email": "shae.kuronen@gmail.com",
-    "url": ""
+    "name": "{%= author_name %}",
+    "email": "{%= author_email %}",
+    "url": "{%= author_url %}"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shae/test4.git"
+    "url": "{%= repository %}"
   },
   "bugs": {
-    "url": "https://github.com/shae/test4/issues"
+    "url": "{%= bugs %}"
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://github.com/shaekuronen/spandex/blob/master/LICENSE-MIT"
+      "type": "{%= licenses %}"
     }
   ],
   "main": "Gruntfile.js",
