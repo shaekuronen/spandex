@@ -18,7 +18,7 @@ Functionality
 npm install -g grunt-init
 ```
 
-If it tells you you don't have the necessary privileges, be more assertive:
+If you don't have the necessary privileges, be more assertive:
 
 ```shell
 sudo npm install -g grunt-init
@@ -30,7 +30,7 @@ git clone git@github.com:shaekuronen/spandex.git ~/.grunt-init/spandex
 ```
 
 ##Usage
-Create a project folder, then initialise the project from the `spandex` template:
+Create a project folder, then init the project from the `spandex` template:
 
 ```shell
 mkdir project-name
@@ -38,6 +38,17 @@ cd project-name
 grunt-init spandex
 ```
 
-You will be prompted for a project name, but it will default to the name of the folder you created (`project-name` in the example above), so just hit `Enter` twice.
+You will be prompted for a project data, enter a new value or accept defaults
 
-You will then be prompted to do `npm install` to install grunt (and its plugins and dependencies) locally to the project. Further instructions for using grunt can be found in the project's `README.md` file.
+To install grunt (and its plugins and dependencies) locally to the project:
+
+```shell
+cd www
+npm install
+```
+
+If you don't have the necessary privileges, be more assertive:
+
+```shell
+sudo npm install
+```
