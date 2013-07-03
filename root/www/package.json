@@ -42,7 +42,7 @@
     "grunt-rev": "~0.1.0",
     "grunt-contrib-imagemin": "~0.1.4",
     "ejs": "~0.8.4",
-    "grunt-ejs-static": "~2.0"
+    "grunt-ejs-static": "~0.2.0"
   }
 }
 
