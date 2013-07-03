@@ -26,7 +26,7 @@ sudo npm install -g grunt-init
 
 ###2. Install the template
 ```shell
-git clone git@github.com:shaekuronen/spandex.git ~/.grunt-init/spandex
+git clone https://github.com/shaekuronen/spandex.git ~/.grunt-init/spandex
 ```
 
 ##Usage
