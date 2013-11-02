@@ -9,7 +9,7 @@
   'use strict';
 
   // Basic template description.
-  exports.description = 'Create a new Spandex Project';
+  exports.description = 'Create Project Directory Structure';
 
   // Template-specific notes to be displayed before question prompts.
   exports.after = 'Now, install project dependencies with _npm install_. This will download grunt and the plugins this project uses. For further instructions do _cat README.md_';
@@ -25,7 +25,7 @@
     options = {};
     prompts = [
       init.prompt( 'name' ),
-      init.prompt('description', 'The best Spandex project ever.'),
+      init.prompt('description'),
       init.prompt('version'),
       init.prompt('repository'),
       init.prompt('homepage'),
