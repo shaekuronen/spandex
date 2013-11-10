@@ -1,18 +1,11 @@
 #Spandex - Static Site Generator
 
-Spandex is built on Node JS & Grunt 
-
-Functionality
-- Concatentate, minify, and rev JS and CSS files
-- Minify images
-- Server-side Templating w/ EJS
-- Layout Management with EJS Includes
-- Local Server w/ Node Connect
+Spandex is a project directory grunt-init template.  Includes dir structure to organize everything in a project that falls outside the repo, such as tech specs, documentation, or comps.  Gotta go somewhere!
 
 ##Installation
 
 ###1. Install grunt-init
-[grunt-init](http://gruntjs.com/project-scaffolding) is a standalone utility 
+[grunt-init](http://gruntjs.com/project-scaffolding) is a standalone utility
 
 ```shell
 npm install -g grunt-init
@@ -38,17 +31,5 @@ cd project-name
 grunt-init spandex
 ```
 
-You will be prompted for a project data, enter a new value or accept defaults
+You will be prompted for a project data, enter a new value or accept defaults.
 
-To install grunt (and its plugins and dependencies) locally to the project:
-
-```shell
-cd www
-npm install
-```
-
-If you don't have the necessary privileges, be more assertive:
-
-```shell
-sudo npm install
-```
